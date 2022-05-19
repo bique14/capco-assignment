@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  capco-web:
+    hostname: capco-web
+    build: ./frontend
+    volumes:
+      - /node_modules
+      - ./frontend:/frontend
+    ports:
+      - 3000:3000
+    networks:
+      - capco-network
+
+  capco-api:
+    hostname: capco-api
+    build: ./backend
+    volumes:
+      - /node_modules
+      - ./backend:/backend
+    ports:
+      - 3001:3001
+    networks:
+      - capco-network
+
+networks:
+  capco-network:
+    external: true

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import './App.css';
 import { BACKEND_URL } from './constant';
+import './App.css';
 
 function App() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-red-200 text-green-600">Hello world from Frontend</div>
+    <div className="bg-red-200 text-green-600">!Hello w1orld from Frontend</div>
   );
 }
 
