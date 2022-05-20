@@ -25,33 +25,33 @@
   },
   {
     "id": "news-04",
-    "title": "สุดเศร้า พบแล้วศพ \"เด็กรับรถ\" กระโดดเกาะรถชายคลั่ง คาดกระเด็นตกแม่น้ำเจ้าพระยา",
-    "description": "เจ้าของร้านอาหาร ประกาศตามหา \"วิว\" เด็กรับรถ กระโดดเกาะรถชายคลั่ง คาดกระเด็นตกแม่น้ำเจ้าพระยา ล่าสุดพบเสียชีวิตแล้ว",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/poor-boy.jpeg?raw=true",
+    "title": "'คล็อปป์' ชี้ 'ลิเวอร์พูล' มีโอกาสคว้าแชมป์ แต่อาจจะเกิดขึ้นยาก",
+    "description": "เยอร์เก้น คล็อปป์ กุนซือของลิเวอร์พูล ยอมรับว่าการคว้าแชมป์พรีเมียร์ลีก ในนัดสุดท้ายยังเป็นไปได้ แต่ก็มองว่าเป็นเรื่องยากที่จะเกิดขึ้นจริง",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/klop.jpeg?raw=true",
     "type": "news",
     "created_at": "2022-05-19 19:32"
   },
   {
     "id": "news-05",
-    "title": "\"เวย์ ไทยเทเนี่ยม\" โพสต์หลังดราม่าเพลง \"พ่อมึง\" ขออภัยจากหัวใจหากทำให้รู้สึกไม่ดี",
-    "description": "เวย์ ไทยเทเนี่ยม ได้โพสต์ผ่านอินสตาแกรมส่วนตัว ระบุว่า จากสถานการณ์ที่เกิดขึ้นของเพลง \"พ่อมึง\" พวกเราไทยเทเนี่ยม อยากขอขอบคุณทั้งคำติชม รวมถึงกำลังใจดีๆ ที่ส่งเข้ามา ด้วยเจตนาของการทำเพลงนี้ขึ้นมานั้น ไม่ได้เกิดจากการต้องการดิสใครใดๆ มันคือเพลงหนึ่งเพลงที่ตั้งใจให้ความบันเทิงกับคนที่รักในดนตรีฮิปฮอปตามแบบฉบับของไทยเทเนี่ยม",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/thaitanium.jpeg?raw=true",
+    "title": "\"FEEL MY RHYTHM\" Red Velvet คอนเฟิร์มคัมแบ็ค",
+    "description": "หลังประสบความสำเร็จจาก มินิอัลบั้มที่ 6 “Queendom” สื่อเกาหลีรายงานว่า Red Velvet กำลังเตรียมตัวสำหรับคัมแบ็คในเพลง FEEL MY RHYTHM",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/redvelvet.jpeg?raw=true",
     "type": "news",
     "created_at": "2022-05-19 12:22"
   },
   {
     "id": "news-06",
-    "title": "ฝนถล่มกรุงเทพฯ ช่วงเลิกงาน-เลิกเรียน รถติด-น้ำท่วมขังหลายแห่ง",
-    "description": "มีฝนฟ้าคะนองในกรุงเทพมหานครและปริมณฑล ทำให้เกิดน้ำท่วมขังหลายพื้นที่ ส่งผลให้การจราจรติดขัดหลายแห่ง เนื่องจากเวลาดังกล่าวเป็นช่วงเวลาเลิกงาน และเลิกเรียน ซึ่งยังเป็นการเปิดเทอมวันแรก",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/flood.jpeg?raw=true",
+    "title": "เศรษฐีเบอร์ 1 อังกฤษ ยื่นซื้อ \"เชลซี\" ปาด 3 กลุ่มทุน ข้อเสนอสูงกว่าเกิน 2 เท่า",
+    "description": "เซอร์ จิม แรตคลิฟฟ์ มหาเศรษฐีชาวอังกฤษ กลายเป็นรายล่าสุดที่ยื่นข้อเสนอซื้อสโมสรเชลซี ทีมดังในศึกฟุตบอลพรีเมียร์ลีก อังกฤษ หลังจาก โรมัน อบราโมวิช เจ้าของทีมคนปัจจุบันชาวรัสเซียประกาศขายทีมอย่างเป็นทางการ เหตุเจอรัฐบาลสหราชอาณาจักรคว่ำบาตรจากการทำสงครามระหว่าง รัสเซีย-ยูเครน",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/chelsea.jpeg?raw=true",
     "type": "news",
     "created_at": "2022-05-19 19:45"
   },
   {
     "id": "news-07",
-    "title": "'คล็อปป์' ชี้ 'ลิเวอร์พูล' มีโอกาสคว้าแชมป์ แต่อาจจะเกิดขึ้นยาก",
-    "description": "เยอร์เก้น คล็อปป์ กุนซือของลิเวอร์พูล ยอมรับว่าการคว้าแชมป์พรีเมียร์ลีก ในนัดสุดท้ายยังเป็นไปได้ แต่ก็มองว่าเป็นเรื่องยากที่จะเกิดขึ้นจริง",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/klop.jpeg?raw=true",
+    "title": "สุดเศร้า พบแล้วศพ \"เด็กรับรถ\" กระโดดเกาะรถชายคลั่ง คาดกระเด็นตกแม่น้ำเจ้าพระยา",
+    "description": "เจ้าของร้านอาหาร ประกาศตามหา \"วิว\" เด็กรับรถ กระโดดเกาะรถชายคลั่ง คาดกระเด็นตกแม่น้ำเจ้าพระยา ล่าสุดพบเสียชีวิตแล้ว",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/poor-boy.jpeg?raw=true",
     "type": "news",
     "created_at": "2022-05-19 12:18"
   },
@@ -142,5 +142,21 @@
     "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/pimrypie.jpeg?raw=true",
     "type": "news",
     "created_at": "2022-05-14 14:32"
+  },
+  {
+    "id": "news-19",
+    "title": "\"เวย์ ไทยเทเนี่ยม\" โพสต์หลังดราม่าเพลง \"พ่อมึง\" ขออภัยจากหัวใจหากทำให้รู้สึกไม่ดี",
+    "description": "เวย์ ไทยเทเนี่ยม ได้โพสต์ผ่านอินสตาแกรมส่วนตัว ระบุว่า จากสถานการณ์ที่เกิดขึ้นของเพลง \"พ่อมึง\" พวกเราไทยเทเนี่ยม อยากขอขอบคุณทั้งคำติชม รวมถึงกำลังใจดีๆ ที่ส่งเข้ามา ด้วยเจตนาของการทำเพลงนี้ขึ้นมานั้น ไม่ได้เกิดจากการต้องการดิสใครใดๆ มันคือเพลงหนึ่งเพลงที่ตั้งใจให้ความบันเทิงกับคนที่รักในดนตรีฮิปฮอปตามแบบฉบับของไทยเทเนี่ยม",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/thaitanium.jpeg?raw=true",
+    "type": "news",
+    "created_at": "2022-05-14 11:02"
+  },
+  {
+    "id": "news-20",
+    "title": "ฝนถล่มกรุงเทพฯ ช่วงเลิกงาน-เลิกเรียน รถติด-น้ำท่วมขังหลายแห่ง",
+    "description": "มีฝนฟ้าคะนองในกรุงเทพมหานครและปริมณฑล ทำให้เกิดน้ำท่วมขังหลายพื้นที่ ส่งผลให้การจราจรติดขัดหลายแห่ง เนื่องจากเวลาดังกล่าวเป็นช่วงเวลาเลิกงาน และเลิกเรียน ซึ่งยังเป็นการเปิดเทอมวันแรก",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/flood.jpeg?raw=true",
+    "type": "news",
+    "created_at": "2022-05-14 11:02"
   }
 ]
