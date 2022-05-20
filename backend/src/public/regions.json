@@ -3,7 +3,7 @@
     "id": "regions-01",
     "title": "เผยผลตรวจ \"อาหาร-เครื่องดื่ม\" จากอาศรมฤาษี \"พระบิดา\" พบไม่ได้มาตรฐานหลายรายการ",
     "description": "กรมวิทยาศาสตร์การแพทย์ เผยผลตรวจอาหาร-เครื่องดื่ม จากอาศรมฤาษี \"พระบิดา\" พบหลายรายการไม่ได้มาตรฐานด้านจุลชีววิทยา พร้อมแนะควรเลี่ยงการบริโภค เพราะอาจมีความเสี่ยงต่อสุขภาพ",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/food.jpeg?raw=true",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/food.jpg?raw=true",
     "type": "regions",
     "created_at": "2022-05-20 12:24"
   },
