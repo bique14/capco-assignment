@@ -10,7 +10,13 @@ interface Category {
   name: string;
 }
 
-const Header = () => {
+interface HeaderProps {
+  _onChange: (query: string) => void;
+}
+
+const Header = (props: HeaderProps) => {
+  const { _onChange } = props;
+
   const categories: Category[] = [
     { id: PAGE.NEWS, name: 'News' },
     { id: PAGE.REGIONS, name: 'Regions' },
@@ -36,12 +42,12 @@ const Header = () => {
               ))}
             </div>
             <div className={classNames(['hidden', 'md:block md:w-44'])}>
-              <SearchInput />
+              <SearchInput _onChange={_onChange} />
             </div>
           </div>
         </div>
         <div className={classNames(['block w-full mt-2', 'md:hidden'])}>
-          <SearchInput />
+          <SearchInput _onChange={_onChange} />
         </div>
       </div>
     </div>

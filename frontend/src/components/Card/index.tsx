@@ -14,16 +14,12 @@ interface CardProps {
 const Card = (props: CardProps) => {
   const { id, title, description, image, index, headline } = props;
 
-  const [isHover, setIsHover] = useState<boolean>(false);
-
   const isHeadline = index === 0 && headline;
   const headlineClasses = isHeadline ? 'card-headline ' : '';
 
   return (
     <div
-      className={`card font-prompt border rounded flex flex-col ${headlineClasses}`}
-      onMouseEnter={() => setIsHover(true)}
-      onMouseLeave={() => setIsHover(false)}
+      className={`card font-prompt border rounded flex flex-col cursor-pointer ${headlineClasses}`}
     >
       <div
         className={classNames([

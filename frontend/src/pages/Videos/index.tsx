@@ -8,7 +8,13 @@ interface IVideo {
   url: string;
 }
 
-const Videos = () => {
+interface VideosProps {
+  searchQuery: string;
+}
+
+const Videos = (props: VideosProps) => {
+  const { searchQuery } = props;
+
   const [videos, setVideos] = useState<IVideo[]>([]);
 
   const { loading, data } = useCategory('videos');
@@ -41,7 +47,7 @@ const Videos = () => {
         ])}
       >
         {skeletons.map((_, i) => (
-          <CardSkeleton index={i} />
+          <CardSkeleton key={i.toString()} index={i} />
         ))}
       </div>
     </>
@@ -63,8 +69,12 @@ const Videos = () => {
           'lg:grid-cols-3',
         ])}
       >
-        {videos.map(video => (
-          <VideoItem key={video.id} {...video} />
+        {videos.map((video: IVideo) => (
+          <VideoItem
+            key={video.id}
+            {...video}
+            show={video.title.toLowerCase().includes(searchQuery.toLowerCase())}
+          />
         ))}
       </div>
     </>
@@ -75,13 +85,17 @@ interface VideoItemProps {
   id: string;
   title: string;
   url: string;
+  show: boolean;
 }
 
 const VideoItem = (props: VideoItemProps) => {
-  const { id, title, url } = props;
-
+  const { id, title, url, show } = props;
+  console.log(show);
   return (
-    <div className="tv-card font-prompt border rounded flex flex-col cursor-pointer">
+    <div
+      className="tv-card font-prompt border rounded flex flex-col cursor-pointer"
+      style={{ display: show ? 'block' : 'none' }}
+    >
       <>
         <iframe
           className="rounded-t w-full h-64"

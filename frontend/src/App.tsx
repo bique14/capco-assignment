@@ -22,10 +22,16 @@ export const PAGE: IPage = Object.freeze({
 });
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState<string>('');
+
+  const onSearchQueryChange = (query: string) => {
+    setSearchQuery(query);
+  };
+
   return (
     <div className="h-full">
       <BrowserRouter>
-        <Header />
+        <Header _onChange={onSearchQueryChange} />
         <div
           className={classNames([
             'mx-auto mb-20',
@@ -34,11 +40,17 @@ function App() {
           ])}
         >
           <Routes>
-            <Route path="/" element={<News />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/regions" element={<Regions />} />
-            <Route path="/tv" element={<TV />} />
-            <Route path="/videos" element={<Videos />} />
+            <Route path="/" element={<News searchQuery={searchQuery} />} />
+            <Route path="/news" element={<News searchQuery={searchQuery} />} />
+            <Route
+              path="/regions"
+              element={<Regions searchQuery={searchQuery} />}
+            />
+            <Route path="/tv" element={<TV searchQuery={searchQuery} />} />
+            <Route
+              path="/videos"
+              element={<Videos searchQuery={searchQuery} />}
+            />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>

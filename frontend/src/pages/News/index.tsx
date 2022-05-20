@@ -10,7 +10,13 @@ interface INews {
   created_at: string;
 }
 
-const News = () => {
+interface NewsProps {
+  searchQuery: string;
+}
+
+const News = (props: NewsProps) => {
+  const { searchQuery } = props;
+
   const [news, setNews] = useState<INews[]>([]);
   const { loading, data } = useCategory('news');
 
@@ -42,7 +48,7 @@ const News = () => {
         ])}
       >
         {skeletons.map((_, i) => (
-          <CardSkeleton index={i} headline />
+          <CardSkeleton key={i.toString()} index={i} headline />
         ))}
       </div>
     </>
@@ -64,9 +70,17 @@ const News = () => {
           'lg:grid-cols-4',
         ])}
       >
-        {news.map((n, i) => (
-          <Card key={n.id} {...n} index={i} headline />
-        ))}
+        {news
+          .filter(
+            (item: INews) =>
+              item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              item.description
+                .toLowerCase()
+                .includes(searchQuery.toLowerCase()),
+          )
+          .map((n, i) => (
+            <Card key={n.id} {...n} index={i} headline />
+          ))}
       </div>
     </>
   );

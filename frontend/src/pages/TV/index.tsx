@@ -8,7 +8,13 @@ interface ITV {
   image: string;
 }
 
-const TV = () => {
+interface TVProps {
+  searchQuery: string;
+}
+
+const TV = (props: TVProps) => {
+  const { searchQuery } = props;
+
   const [tvChannel, setTVChannel] = useState<ITV[]>([]);
 
   const { loading, data } = useCategory('tv');
@@ -41,7 +47,7 @@ const TV = () => {
         ])}
       >
         {skeletons.map((_, i) => (
-          <CardSkeleton index={i} />
+          <CardSkeleton key={i.toString()} index={i} />
         ))}
       </div>
     </>
@@ -63,9 +69,18 @@ const TV = () => {
           'lg:grid-cols-4',
         ])}
       >
-        {tvChannel.map((ch, i) => (
-          <Channel key={ch.id} {...ch} />
-        ))}
+        {tvChannel
+          .filter(
+            (item: ITV) =>
+              item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              item.title
+                .toLowerCase()
+                .replace(/ /g, '')
+                .includes(searchQuery.toLowerCase()),
+          )
+          .map((ch, i) => (
+            <Channel key={ch.id} {...ch} />
+          ))}
       </div>
     </>
   );

@@ -10,7 +10,13 @@ interface IRegions {
   created_at: string;
 }
 
-const Regions = () => {
+interface RegionsProps {
+  searchQuery: string;
+}
+
+const Regions = (props: RegionsProps) => {
+  const { searchQuery } = props;
+
   const [regions, setRegions] = useState<IRegions[]>([]);
 
   const { loading, data } = useCategory('regions');
@@ -43,7 +49,7 @@ const Regions = () => {
         ])}
       >
         {skeletons.map((_, i) => (
-          <CardSkeleton index={i} headline />
+          <CardSkeleton key={i.toString()} index={i} headline />
         ))}
       </div>
     </>
@@ -65,9 +71,17 @@ const Regions = () => {
           'lg:grid-cols-4',
         ])}
       >
-        {regions.map((n, i) => (
-          <Card key={n.id} {...n} index={i} headline />
-        ))}
+        {regions
+          .filter(
+            (item: IRegions) =>
+              item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              item.description
+                .toLowerCase()
+                .includes(searchQuery.toLowerCase()),
+          )
+          .map((n, i) => (
+            <Card key={n.id} {...n} index={i} headline />
+          ))}
       </div>
     </>
   );
