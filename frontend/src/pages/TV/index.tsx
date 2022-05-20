@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { CardSkeleton } from '../../components';
 import { classNames, useCategory } from '../../lib';
 
 interface ITV {
@@ -19,8 +20,31 @@ const TV = () => {
     }
   }, [loading, data]);
 
+  const skeletons = [...new Array(8)].fill(0);
+
   return loading ? (
-    <div>Loading</div>
+    <>
+      <h1
+        className={classNames([
+          'font-bebas text-center text-3xl border-b border-b-black border-t border-t-black mx-4 my-7 pt-4 pb-2',
+          'md:my-10 md:text-5xl',
+          'lg:text-6xl',
+        ])}
+      >
+        TV
+      </h1>
+      <div
+        className={classNames([
+          'grid grid-cols-1 gap-5 mx-4',
+          'md:grid-cols-3',
+          'lg:grid-cols-4',
+        ])}
+      >
+        {skeletons.map((_, i) => (
+          <CardSkeleton index={i} />
+        ))}
+      </div>
+    </>
   ) : (
     <>
       <h1

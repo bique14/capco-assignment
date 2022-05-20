@@ -2,12 +2,13 @@ import { classNames } from '../../lib';
 
 interface CardSkeletonProps {
   index: number;
+  headline?: boolean;
 }
 
 const CardSkeleton = (props: CardSkeletonProps) => {
-  const { index } = props;
+  const { index, headline } = props;
 
-  const isHeadline = index === 0;
+  const isHeadline = index === 0 && headline;
   const headlineClasses = isHeadline ? 'card-headline ' : '';
 
   return (
