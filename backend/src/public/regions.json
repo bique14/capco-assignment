@@ -69,7 +69,7 @@
     "description": "เจ้าหน้าที่สำนักงานพาณิชย์ จ.ขอนแก่น ลงพื้นที่ตรวจติดตามสถานการณ์ราคาน้ำมันปาล์มในห้างสรรพสินค้าและร้านค้าต่างๆในเขต จ.ขอนแก่น เพื่อตรวจสอบปริมาณราคาจำหน่าย ป้องการกักตุนสินค้า และการไม่ฉวยโอกาสขึ้นราคาหรือค้ากำไรเกินควร",
     "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/oil.jpg?raw=true",
     "type": "regions",
-    "created_at": "2022-05-16 00:32"
+    "created_at": "2022-05-15 15:49"
   },
   {
     "id": "regions-10",
@@ -77,7 +77,7 @@
     "description": "คุณยายลูกชิ้น เจ๊กเมือง อายุ 67 ปี จ.พิษณุโลก ปั่นจักรยานออกจากบ้านแล้วไปประสบอุบัติเหตุพลัดตกลงไปในคลองน้ำพื้นที่บ้านเกาะพัฒนา เจ้าหน้าที่กู้ภัยมูลนิธิประสาทบุญสถานใช้เวลางมหาร่างกว่า2ชม.",
     "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/grandma-dead.jpeg?raw=true",
     "type": "regions",
-    "created_at": "2022-05-16 00:32"
+    "created_at": "2022-05-15 11:23"
   },
   {
     "id": "regions-11",
@@ -85,7 +85,7 @@
     "description": "เจ้าของร้านช่วยนำเข้าตรวจสอบสิ่งของเก่าที่รับซื้อเข้ามาภายในร้าน ซึ่งตรวจพบมีอุปกรณ์ประกอบราวกันอันตรายข้างถนนในสายหมวดของแขวงการทางหลวงจังหวัดชัยภูมิ ที่รับผิดชอบถูกลักขโมยมาขายปะปนอยู่กับกองเหล็กเก่าเป็นจำนวนมาก",
     "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/thief-iron.jpeg?raw=true",
     "type": "regions",
-    "created_at": "2022-05-16 00:32"
+    "created_at": "2022-05-14 14:09"
   },
   {
     "id": "regions-12",
@@ -93,7 +93,7 @@
     "description": "ที่บริเวณจุดสกัดเขาสูง เขาแผงม้า บ้านคลองทราย ต.วังน้ำเขียว อ.วังน้ำเขียว จ.นครราชสีมา เกิดปรากฎการณ์ทางธรรมชาติ “รุ้งกินน้ำ” พาดผ่านเหนือบริเวณจุดชมกระทิงป่าเขาแผงม้า หลังมีฝนตกอย่างหนักในผืนป่า",
     "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/rainbow.jpeg?raw=true",
     "type": "regions",
-    "created_at": "2022-05-16 00:32"
+    "created_at": "2022-05-14 08:14"
   },
   {
     "id": "regions-13",
@@ -101,6 +101,6 @@
     "description": "กรมทรัพยากรทางทะเลและชายฝั่งพบแม่เต่าทะเลกลับมาวางไข่รังที่ 3 บริเวณหาดท้องหนันเกาะสมุย สัญญาณดีแสดงถึงความอุดมสมบูรณ์ของพื้นที่ หลังปี 63 ขึ้นมาไข่ร่วม 20 รัง",
     "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/regions/turtle.jpeg?raw=true",
     "type": "regions",
-    "created_at": "2022-05-16 00:32"
+    "created_at": "2022-05-14 06:12"
   }
 ]
