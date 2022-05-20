@@ -1,14 +1,74 @@
-import { useEffect } from 'react';
-import { useCategory } from '../../lib';
+import { useEffect, useState } from 'react';
+import { classNames, useCategory } from '../../lib';
+
+interface ITV {
+  id: string;
+  title: string;
+  image: string;
+}
 
 const TV = () => {
-  const { loading, data: tv } = useCategory('tv');
+  const [tvChannel, setTVChannel] = useState<ITV[]>([]);
+
+  const { loading, data } = useCategory('tv');
 
   useEffect(() => {
-    console.log(loading, tv);
-  }, [loading, tv]);
+    console.log(loading, tvChannel);
+    if (!loading) {
+      setTVChannel(data);
+    }
+  }, [loading, data]);
 
-  return <div>TV</div>;
+  return loading ? (
+    <div>Loading</div>
+  ) : (
+    <>
+      <h1
+        className={classNames([
+          'font-bebas text-center text-3xl border-b border-b-black border-t border-t-black mx-4 my-7 pt-4 pb-2',
+          'md:my-10 md:text-5xl',
+          'lg:text-6xl',
+        ])}
+      >
+        TV
+      </h1>
+      <div
+        className={classNames([
+          'grid grid-cols-1 gap-5 mx-4',
+          'md:grid-cols-3',
+          'lg:grid-cols-4',
+        ])}
+      >
+        {tvChannel.map((ch, i) => (
+          <Channel key={ch.id} {...ch} />
+        ))}
+      </div>
+    </>
+  );
+};
+
+interface ChannelProps {
+  id: string;
+  title: string;
+  image: string;
+}
+
+const Channel = (props: ChannelProps) => {
+  const { id, title, image } = props;
+
+  return (
+    <div className="tv-card font-prompt border rounded flex flex-col cursor-pointer">
+      <div className={classNames(['h-56', 'lg:h-64'])}>
+        <img
+          className="h-full w-full rounded object-contain"
+          alt={id}
+          src={image}
+        />
+      </div>
+
+      <span className="font-bold text-center mb-3">{title}</span>
+    </div>
+  );
 };
 
 export default TV;
