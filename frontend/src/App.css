@@ -9,3 +9,24 @@ body,
 #root {
   height: 100%;
 }
+
+.card:hover .card-image {
+  height: 14.5rem;
+}
+
+.tv-card:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .card-headline {
+    grid-area: 1 / 1 / span 1 / span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-headline {
+    grid-area: 1 / 1 / span 2 / span 2;
+  }
+}

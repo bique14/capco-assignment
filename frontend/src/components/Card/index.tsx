@@ -1,5 +1,5 @@
+import { useEffect, useLayoutEffect, useState } from 'react';
 import { classNames } from '../../lib';
-import './index.css';
 
 interface CardProps {
   id: string;
@@ -12,17 +12,25 @@ interface CardProps {
 }
 
 const Card = (props: CardProps) => {
-  const { id, title, description, image, created_at, index, headline } = props;
+  const { id, title, description, image, index, headline } = props;
+
+  const [isHover, setIsHover] = useState<boolean>(false);
 
   const isHeadline = index === 0 && headline;
   const headlineClasses = isHeadline ? 'card-headline ' : '';
 
   return (
     <div
-      className={`font-prompt border rounded flex flex-col ${headlineClasses}`}
+      className={`card font-prompt border rounded flex flex-col ${headlineClasses}`}
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
     >
       <div
-        className={classNames(['h-56', isHeadline ? 'lg:flex-1' : 'lg:h-64'])}
+        className={classNames([
+          'card-image',
+          'h-56',
+          isHeadline ? 'lg:flex-1' : 'lg:h-64',
+        ])}
       >
         <img
           className="h-full w-full rounded object-cover"
@@ -32,7 +40,7 @@ const Card = (props: CardProps) => {
       </div>
       <div
         className={classNames([
-          'p-2 ',
+          'p-2',
           isHeadline
             ? 'md:h-full md:flex md:flex-col md:justify-around' +
               ' ' +
@@ -51,6 +59,7 @@ const Card = (props: CardProps) => {
         </span>
         <p
           className={classNames([
+            'card-description',
             'text-xs text-gray-500',
             'md:text-base',
             isHeadline ? 'lg:text-lg' : '',
