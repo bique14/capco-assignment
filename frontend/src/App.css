@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@400;600&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
+}
