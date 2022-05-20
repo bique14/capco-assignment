@@ -1,0 +1,128 @@
+[
+  {
+    "id": "news-01",
+    "title": "'ทูเคิ่ล' ติงลูกทีม ใช้โอกาสเปลืองทำได้เพียงเสมอ",
+    "description": "โธมัส ทูเคิ่ล กุนซือของเชลซี มองว่าทีมของเขาเจอปัญหาเดิมๆ อีกครั้งหลังทำได้แค่เปิดบ้านเสมอกับ เลสเตอร์ ซิตี้ 1-1 แม้จะมีโอกาสในเกมหลายครั้ง ในขณะที่พวกเขาใกล้จะการันตีการจบด้วยอันดับ 3 ซีซั่นนี้",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/tuchel.jpeg?raw=true",
+    "created_at": "2022-05-20 10:40"
+  },
+  {
+    "id": "news-02",
+    "title": "กลับมาทวงบัลลังก์อีกครั้ง SM คอนเฟิร์มแล้ว GIRLS' GENERATION เตรียมคัมแบค",
+    "description": "กลับมาทวงบัลลังก์ Girl Group ระดับตำนานอีกครั้ง SM Entertainment คอนเฟิร์มแล้วกับวง Girl Group ระดับตัวแม่ของวงการ K-POP อย่าง Girls' Generation เตรียมคัมแบคด้วยอัลบั้มฉลองครบรอบ 15 ปีของการเดบิวต์ ซึ่งผลงานอัลบั้มนี้จะเป็นการคัมแบคในรอบ 5 ปีนับตั้งแต่อัลบั้มชุดที่ 6 อย่าง Holiday Night ออกวางจำหน่ายในเดือนสิงหาคม 2017 ซึ่งจะเป็นอัลบั้มเต็มของสมาชิกทั้ง 8 คนนั้นเอง และนอกจากนี้ยังมีกิจกรรมที่จะปรากฏตัวในรายการโทรทัศน์และกิจกรรมบันเทิงต่าง ๆ เพื่อฉลองการเปิดตัวอัลบั้มครบรอบ 15 ปีอีกด้วย",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/snsd-comback.jpeg?raw=true",
+    "created_at": "2022-05-19 08:20"
+  },
+  {
+    "id": "news-03",
+    "title": "ประกาศตามหาผู้ปกครอง \"น้องหมาโกลเด้น\" หลังพลัดหลงจากบ้านช่วงฝนตก",
+    "description": "\"สน.ลุมพินี\" ประกาศตามหาผู้ปกครอง \"สุนัขพันธุ์โกลเด้น รีทรีฟเวอร์\" เพศเมีย หลังพลัดหลงบริเวณ คอนโด Life wireless ถนนวิทยุเหนือ ช่วงฝนตกเย็นวานนี้",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/golden-retriever.jpeg?raw=true",
+    "created_at": "2022-05-19 10:11"
+  },
+  {
+    "id": "news-04",
+    "title": "สุดเศร้า พบแล้วศพ \"เด็กรับรถ\" กระโดดเกาะรถชายคลั่ง คาดกระเด็นตกแม่น้ำเจ้าพระยา",
+    "description": "เจ้าของร้านอาหาร ประกาศตามหา \"วิว\" เด็กรับรถ กระโดดเกาะรถชายคลั่ง คาดกระเด็นตกแม่น้ำเจ้าพระยา ล่าสุดพบเสียชีวิตแล้ว",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/poor-boy.jpeg?raw=true",
+    "created_at": "2022-05-19 19:32"
+  },
+  {
+    "id": "news-05",
+    "title": "\"เวย์ ไทยเทเนี่ยม\" โพสต์หลังดราม่าเพลง \"พ่อมึง\" ขออภัยจากหัวใจหากทำให้รู้สึกไม่ดี",
+    "description": "เวย์ ไทยเทเนี่ยม ได้โพสต์ผ่านอินสตาแกรมส่วนตัว ระบุว่า จากสถานการณ์ที่เกิดขึ้นของเพลง \"พ่อมึง\" พวกเราไทยเทเนี่ยม อยากขอขอบคุณทั้งคำติชม รวมถึงกำลังใจดีๆ ที่ส่งเข้ามา ด้วยเจตนาของการทำเพลงนี้ขึ้นมานั้น ไม่ได้เกิดจากการต้องการดิสใครใดๆ มันคือเพลงหนึ่งเพลงที่ตั้งใจให้ความบันเทิงกับคนที่รักในดนตรีฮิปฮอปตามแบบฉบับของไทยเทเนี่ยม",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/thaitanium.jpeg?raw=true",
+    "created_at": "2022-05-19 12:22"
+  },
+  {
+    "id": "news-06",
+    "title": "ฝนถล่มกรุงเทพฯ ช่วงเลิกงาน-เลิกเรียน รถติด-น้ำท่วมขังหลายแห่ง",
+    "description": "มีฝนฟ้าคะนองในกรุงเทพมหานครและปริมณฑล ทำให้เกิดน้ำท่วมขังหลายพื้นที่ ส่งผลให้การจราจรติดขัดหลายแห่ง เนื่องจากเวลาดังกล่าวเป็นช่วงเวลาเลิกงาน และเลิกเรียน ซึ่งยังเป็นการเปิดเทอมวันแรก",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/flood.jpeg?raw=true",
+    "created_at": "2022-05-19 19:45"
+  },
+  {
+    "id": "news-07",
+    "title": "'คล็อปป์' ชี้ 'ลิเวอร์พูล' มีโอกาสคว้าแชมป์ แต่อาจจะเกิดขึ้นยาก",
+    "description": "เยอร์เก้น คล็อปป์ กุนซือของลิเวอร์พูล ยอมรับว่าการคว้าแชมป์พรีเมียร์ลีก ในนัดสุดท้ายยังเป็นไปได้ แต่ก็มองว่าเป็นเรื่องยากที่จะเกิดขึ้นจริง",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/klop.jpeg?raw=true",
+    "created_at": "2022-05-19 12:18"
+  },
+  {
+    "id": "news-08",
+    "title": "โด ควอน ประกาศแผนสร้าง LUNA ใหม่กับบล็อกเชนที่ไม่มี UST",
+    "description": " โด ควอน ซีอีโอ Terraform Labs เสนอแผนฟื้นฟูระบบนิเวศ Terra ครั้งที่ 2 ผ่านทวิตเตอร์ ท่ามกลางความพยายามที่จะฟื้นฟูบล็อกเชนที่ร่วงอย่างรุนแรง หลังจากที่ TerraUSD Stablecoin (UST) ราคาร่วงลงต่ำกว่าระดับ 1 เหรียญสหรัฐ ขณะที่เหรียญ LUNA ร่วงจากเกือบ 100 เหรียญสหรัฐมาเป็นไม่ถึง 1 เหรียญสหรัฐเมื่อสัปดาห์ก่อน",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/dokwon-luna.jpeg?raw=true",
+    "created_at": "2022-05-19 09:12"
+  },
+  {
+    "id": "news-09",
+    "title": "'เทน ฮาก' เล็งดึง 'ก็องเต้' เสริมทัพซีซั่นหน้า",
+    "description": "สื่อประเทศอังกฤษหลายสำนักรายงานตรงกันว่า เอริค เทน ฮาก กุนซือคนใหม่ของแมนเชสเตอร์ ยูไนเต็ด ต้องการตัว เอ็นโกโล่ ก็องเต้ กองกลางของเชลซี ไปร่วมทัพในซีซั่นหน้า",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/kante.jpeg?raw=true",
+    "created_at": "2022-05-18 23:48"
+  },
+  {
+    "id": "news-10",
+    "title": "Google ยื่นล้มละลายในรัสเซีย ภายหลังถูกยึดบัญชีธนาคาร",
+    "description": "Google ตัดสินใจยื่นขอล้มละลายในประเทศรัสเซีย เนื่องจากบัญชีธนาคารถูกรัฐบาลรัสเซียยึดไป จึงทำให้กูเกิลไม่สามารถจ่ายเงินเดือนให้กับพนักงาน รวมถึงการทำธุรกรรมทางการเงินที่สำคัญต่อไปได้",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/google-russia-bankrupt.jpeg?raw=true",
+    "created_at": "2022-05-18 21:22"
+  },
+  {
+    "id": "news-11",
+    "title": "แพทย์ยัน \"หลวงปู่แสง\" เป็นอัลไซเมอร์ มีภาวะหลงลืมจริง",
+    "description": "หมอประจำโรงพยาบาลยโสธร ยัน \"หลวงปู่แสง\" พระเกจิดัง เป็นอัลไซเมอร์ มีภาวะหลงลืม ลุก-นั่ง-นอนเองยังไม่ได้",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/monk.jpeg?raw=true",
+    "created_at": "2022-05-17 15:43"
+  },
+  {
+    "id": "news-12",
+    "title": "ศบค.สั่งยกเลิกกักตัวกลุ่มเสี่ยงสูง ผับบาร์เปิดได้แค่พื้นที่สีฟ้า-เขียว ห้ามเปิดเกินเที่ยงคืน",
+    "description": "นพ.ทวีศิลป์ เผย ที่ประชุม ศบค.ยกเลิกกักตัวในผู้สัมผัสเสี่ยงสูง ปรับพื้นที่สีเหลือ เขียว ฟ้า เหลือง เริ่ม 1 มิ.ย. สถานบันเทิงเปิดได้เฉพาะพื้นที่สีฟ้าและเขียว ดื่มได้ไม่เกินเที่ยงคืน อาบ อบ นวด ต้องใส่หน้ากาก",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/able-to-night-club.jpeg?raw=true",
+    "created_at": "2022-05-17 12:22"
+  },
+  {
+    "id": "news-13",
+    "title": "HONDA เปิดตัวจักรยานยนต์ราคาประหยัด NEW WAVE 110i",
+    "description": "รถจักรยานยนต์ Honda เปิดตัวสองล้อราคาประหยัด New Wave110i รุ่นใหม่ล่าสุด ตอบสนองการใช้งานของคนไทย ด้วยประสิทธิภาพและสมรรถนะจากเครื่องยนต์ Honda Smart Engine ที่ให้ทั้งความประหยัด เเรง ทน ตามแบบฉบับของเวฟ ไม่เปลี่ยนเเปลง",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/honda-wave.png?raw=true",
+    "created_at": "2022-05-16 09:30"
+  },
+  {
+    "id": "news-14",
+    "title": "เฮนเดอร์สัน' อาจโทรหา 'เจอร์ราร์ด' ช่วยหยุด 'แมนซิตี้' นัดสุดท้าย",
+    "description": "จอร์แดน เฮนเดอร์สัน กัปตันทีมลิเวอร์พูล ให้สัมภาษณ์ติดตลกว่า เตรียมจะโทรหา สตีเว่น เจอร์ราร์ด กุนซือของแอสตัน วิลล่า ให้ช่วยหยุด แมนเชสเตอร์ ซิตี้ ในนัดสุดท้ายของฤดูกาล เพื่อให้ลิเวอร์พูลคว้าแชมป์พรีเมียร์ลีก",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/henderson.jpeg?raw=true",
+    "created_at": "2022-05-16 17:33"
+  },
+  {
+    "id": "news-15",
+    "title": "นาทีน้ำทะลัก สวนน้ำ \"แสนสนุก\" ชี้แจง เจอมือดีกรีดสระแตก คนเซ้งเลิกสัญญา",
+    "description": "สวนน้ำ \"แสนสนุก\" โพสต์ขอโทษลูกค้าให้บริการวันสุดท้ายไม่ได้ หลังเจอมือดีกรีดบ่อ และของเล่นในสระ ได้รับความเสียหาย ซ้ำคนเซ้งยกเลิกสัญญา",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/amusement-park.jpeg?raw=true",
+    "created_at": "2022-05-15 18:23"
+  },
+  {
+    "id": "news-16",
+    "title": "\"ปาย\" ยอมรับมีคนคุยจริง!! เผยชอบผู้หญิง ย้ำลดสถานะคู่จิ้น \"นุ๊ก\" ตัดสินใจร่วมกัน",
+    "description": "ปาย ฉัตรนภา ขอโพสต์ประเด็นลดสถานะคู่จิ้น นุ๊ก ธนดล ครั้งสุดท้าย ยอมรับมีคนคุยจริง ตนคือทอมชอบผู้หญิง เรื่องที่เกิดขึ้นตัดสินใจร่วมกัน รับรู้เรื่องทั้งหมด",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/nook-pai.jpeg?raw=true",
+    "created_at": "2022-05-15 11:25"
+  },
+  {
+    "id": "news-17",
+    "title": "อุทาหรณ์ โรงแรมหรูไม่ติดชื่อเมนู สาวทานเข้าไป \"แพ้กุ้ง\" รุนแรง เข้า รพ.",
+    "description": "อุทาหรณ์ ลูกค้าอ้างโรงแรมหรูไม่ติดป้ายชื่ออาหาร ซ้ำพนักงานแจ้งไม่มีกุ้งในอาหาร สุดท้ายสาวทานเข้าไปแพ้กุ้งรุนแรง หามส่ง รพ.",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/allergic-shrimp.jpeg?raw=true",
+    "created_at": "2022-05-15 16:42"
+  },
+  {
+    "id": "news-18",
+    "title": "พิมรี่พาย แจงดราม่าช่วย \"สาวติดเตียง\" โชว์หลักฐานเบี้ยวรักษา-เรียกเงินค่าของ",
+    "description": "จากกรณี พิมรี่พาย แม่ค้าออนไลน์ชื่อดัง ได้เข้าช่วยเหลือ หญิงป่วยติดเตียงจากโรคกล้ามเนื้อสลาย เนื่องจากทำงานหนักและพักผ่อนไม่เพียงพอ ทางทีมงานจึงเข้าไปช่วยเก็บของที่มีอยู่เต็มห้องและได้พาไปหาหมอกายภาพบำบัด โดยรับผิดชอบค่าใช้จ่ายทั้งหมด",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/news/pimrypie.jpeg?raw=true",
+    "created_at": "2022-05-14 14:32"
+  }
+]
