@@ -7,11 +7,13 @@ const {
   tvRouter,
   videosRouter,
 } = require('./routes');
+const middleWare = require('./middleware');
 
 const app = express();
 const port = 3001;
 
 app.use(cors());
+app.use(middleWare);
 app.use(newsRouter);
 app.use(regionsRouter);
 app.use(tvRouter);
