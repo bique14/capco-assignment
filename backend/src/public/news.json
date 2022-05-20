@@ -43,7 +43,7 @@
     "id": "news-06",
     "title": "เศรษฐีเบอร์ 1 อังกฤษ ยื่นซื้อ \"เชลซี\" ปาด 3 กลุ่มทุน ข้อเสนอสูงกว่าเกิน 2 เท่า",
     "description": "เซอร์ จิม แรตคลิฟฟ์ มหาเศรษฐีชาวอังกฤษ กลายเป็นรายล่าสุดที่ยื่นข้อเสนอซื้อสโมสรเชลซี ทีมดังในศึกฟุตบอลพรีเมียร์ลีก อังกฤษ หลังจาก โรมัน อบราโมวิช เจ้าของทีมคนปัจจุบันชาวรัสเซียประกาศขายทีมอย่างเป็นทางการ เหตุเจอรัฐบาลสหราชอาณาจักรคว่ำบาตรจากการทำสงครามระหว่าง รัสเซีย-ยูเครน",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/chelsea.jpeg?raw=true",
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/public/images/news/chelsea.jpg?raw=true",
     "type": "news",
     "created_at": "2022-05-19 19:45"
   },
