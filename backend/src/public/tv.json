@@ -2,71 +2,85 @@
   {
     "id": "tv-01",
     "title": "CH 3",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-3.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-3.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-02",
     "title": "CH 5",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-5.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-5.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-03",
     "title": "CH 7",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-7.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-7.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-04",
     "title": "CH 8",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-8.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-8.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-05",
     "title": "Modern Nine",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-9.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-9.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-06",
     "title": "ONE",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-31.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/ch-31.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-07",
     "title": "GMM",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/gmm.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/gmm.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-08",
     "title": "Workpoint TV",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/workpoint.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/workpoint.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-09",
     "title": "PPTV HD",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/pptv.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/pptv.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-10",
     "title": "Amarin TV",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/amarin.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/amarin.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-11",
     "title": "Thairat TV",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/thairat.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/thairat.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-12",
     "title": "",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/thai-pbs.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/thai-pbs.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-13",
     "title": "NBT",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/nbt.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/nbt.png?raw=true",
+    "type": "tv"
   },
   {
     "id": "tv-14",
     "title": "Bein Sport HD",
-    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/bein-sport.png?raw=true"
+    "image": "https://github.com/bique14/capco-assignment/blob/master/backend/src/constant/images/tv/bein-sport.png?raw=true",
+    "type": "tv"
   }
 ]
