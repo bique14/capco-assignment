@@ -33,7 +33,7 @@ const Card = (props: CardProps) => {
         ])}
       >
         <img
-          className="h-full w-full rounded object-cover"
+          className="h-full w-full rounded-t object-cover"
           alt={id}
           src={image}
         />
