@@ -24,8 +24,25 @@ const Header = (props: HeaderProps) => {
     { id: PAGE.VIDEOS, name: 'Video' },
   ];
 
+  useEffect(() => {
+    const header = document.getElementById('header');
+    const sticky = header?.offsetTop;
+
+    function handleScroll() {
+      if (window.pageYOffset > (sticky || 0)) {
+        header?.classList.add('sticky');
+      } else {
+        header?.classList.remove('sticky');
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="bg-black text-white font-bebas px-6 py-5">
+    <div id="header" className="bg-black text-white font-bebas px-6 py-5">
       <div
         className={classNames(['mx-auto', 'md:w-11/12', 'lg:w-4/5 lg:mx-auto'])}
       >

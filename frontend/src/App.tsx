@@ -34,6 +34,7 @@ function App() {
         <Header _onChange={onSearchQueryChange} />
         <div
           className={classNames([
+            'content',
             'mx-auto mb-20',
             'md:w-11/12',
             'lg:w-4/5 lg:mx-auto',
