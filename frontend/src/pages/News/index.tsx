@@ -29,6 +29,12 @@ const News = (props: NewsProps) => {
 
   const skeletons = [...new Array(8)].fill(0);
 
+  const filtered = news.filter(
+    (item: INews) =>
+      item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.description.toLowerCase().includes(searchQuery.toLowerCase()),
+  );
+
   return loading ? (
     <>
       <h1
@@ -63,25 +69,21 @@ const News = (props: NewsProps) => {
       >
         NEWS
       </h1>
-      <div
-        className={classNames([
-          'grid grid-cols-1 gap-5 mx-4',
-          'md:grid-cols-3',
-          'lg:grid-cols-4',
-        ])}
-      >
-        {news
-          .filter(
-            (item: INews) =>
-              item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-              item.description
-                .toLowerCase()
-                .includes(searchQuery.toLowerCase()),
-          )
-          .map((n, i) => (
+      {filtered.length === 0 ? (
+        <div className="text-center text-xl">Not found</div>
+      ) : (
+        <div
+          className={classNames([
+            'grid grid-cols-1 gap-5 mx-4',
+            'md:grid-cols-3',
+            'lg:grid-cols-4',
+          ])}
+        >
+          {filtered.map((n, i) => (
             <Card key={n.id} {...n} index={i} headline />
           ))}
-      </div>
+        </div>
+      )}
     </>
   );
 };
