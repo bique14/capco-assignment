@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 import { Header, Footer } from './components';
 import { News, Regions, TV, Videos } from './pages';
+import { classNames } from './lib';
 
 import './App.css';
-import { classNames } from './lib';
 
 interface IPage {
   NEWS: string;

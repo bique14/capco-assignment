@@ -1,5 +1,4 @@
-import { useEffect, useLayoutEffect, useState } from 'react';
-import { classNames } from '../../lib';
+import { classNames, formatDate } from '../../lib';
 
 interface CardProps {
   id: string;
@@ -12,7 +11,7 @@ interface CardProps {
 }
 
 const Card = (props: CardProps) => {
-  const { id, title, description, image, index, headline } = props;
+  const { id, title, description, image, created_at, index, headline } = props;
 
   const isHeadline = index === 0 && headline;
   const headlineClasses = isHeadline ? 'card-headline ' : '';
@@ -34,43 +33,48 @@ const Card = (props: CardProps) => {
           src={image}
         />
       </div>
-      <div
-        className={classNames([
-          'p-2',
-          isHeadline
-            ? 'md:h-full md:flex md:flex-col md:justify-around' +
-              ' ' +
-              'lg:h-56'
-            : 'flex flex-1 flex-col justify-around ',
-          'md:p-3',
-          // 'lg:h-28',
-        ])}
-      >
-        <span
-          className={`font-bold ${
-            isHeadline ? 'md:text-2xl lg:text-4xl' : 'text-base'
-          }`}
-        >
-          {title}
-        </span>
-        <p
+      <>
+        <div
           className={classNames([
-            'card-description',
-            'text-xs text-gray-500',
-            'md:text-base',
-            isHeadline ? 'lg:text-lg' : '',
+            'px-2 pt-2',
+            isHeadline
+              ? 'md:h-full md:flex md:flex-col md:justify-around' +
+                ' ' +
+                'lg:h-56'
+              : 'flex flex-1 flex-col justify-around ',
+            'md:px-3 pt-3',
+            // 'lg:h-28',
           ])}
-          style={{
-            display: '-webkit-box',
-            WebkitLineClamp: 3,
-            WebkitBoxOrient: 'vertical',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-          }}
         >
-          {description}
-        </p>
-      </div>
+          <span
+            className={`font-bold ${
+              isHeadline ? 'md:text-2xl lg:text-4xl' : 'text-base'
+            }`}
+          >
+            {title}
+          </span>
+          <p
+            className={classNames([
+              'card-description',
+              'text-xs text-gray-500',
+              'md:text-base',
+              isHeadline ? 'lg:text-lg' : '',
+            ])}
+            style={{
+              display: '-webkit-box',
+              WebkitLineClamp: 3,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+            }}
+          >
+            {description}
+          </p>
+        </div>
+        <span className="px-3 py-2 text-xs text-gray-300">
+          Updated : {formatDate(created_at)}
+        </span>
+      </>
     </div>
   );
 };
